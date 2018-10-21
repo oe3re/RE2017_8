@@ -1,0 +1,22 @@
+Opis trazenog formata ulaznog tekstualnog fajla:
+
+Sifrovanje:
+___________________________________
+e n
+kljuc
+tekst
+___________________________________
+
+Desifrovanje:
+___________________________________
+d n
+kljuc
+tekst
+___________________________________
+
+e oznacava da korisnik zeli enkripciju poruke, odnosno njenu dekripciju ukoliko na tom mestu pise d
+n predstavlja broj iteracija (dubinu sifrovanja) i može imati vrednosti od 0 do 9999
+kljuc predstavlja cifre u nizu koje cine kljuc po kojem se sifruje (desifruje) i ima ih od 1 do 9 (npr 2431 ili 932145867)
+tekst predstavlja poruku koja se sifruje (desifruje)
+
+Napomena: u slucaju da se unese fajl koji nije napisan u odgovarajucem formatu ishod programa nije definisan.
